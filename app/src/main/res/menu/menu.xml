@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inst"
+        android:icon="@mipmap/insta_foreground"
+        android:title="@string/inst"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fb"
+        android:icon="@mipmap/fb_foreground"
+        android:title="@string/fb"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/inicio"
+        android:title="@string/inicio" />
+    <item
+        android:id="@+id/mapas"
+        android:title="@string/mapas" />
+    <item
+        android:id="@+id/lugares"
+        android:title="@string/lugares" />
+    <item
+        android:id="@+id/info"
+        android:title="@string/info" />
+</menu>
